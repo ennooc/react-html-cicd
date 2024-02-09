@@ -6,7 +6,7 @@ app.use(express.static(path.join(__dirname, '/frontend/build')));
 
 
 app.get('/names', (req, res)=>{
-    res.send("Enoc Aguilar");
+    res.send("Enoc Aguilar Pérez");
 })
 
 app.listen(5000, () =>{
