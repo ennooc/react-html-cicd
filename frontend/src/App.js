@@ -1,6 +1,6 @@
 import Home from "./pages/Home";
 import Header from "./components/Header";
-import Header from "./components/Header";
+import Footer from "./components/Footer";
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import './App.css';
