@@ -1,3 +1,6 @@
+import Home from "./pages/Home";
+
+
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import './App.css';
@@ -14,8 +17,8 @@ function App() {
   }
   return (
     <div >
-      <h1>Hello Enoc</h1>
-      <h3>My name is {userName}</h3>
+      <Home />
+      <h3>{userName}</h3>
     </div>
   );
 }
