@@ -10,6 +10,7 @@ function App() {
   const getNames = async () => {
     const response = await axios.get('/names');
     console.log(response);
+    setUsername(response.data)
   }
   return (
     <div >
